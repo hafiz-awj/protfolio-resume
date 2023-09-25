@@ -25,7 +25,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="md:w-48 w-40 mx-auto md:mx-0">
+        <div className="md:w-48 w-48 mx-auto md:mx-0">
           <img src="/assets/images/avatar.png" className="" alt="Ali's Pic" />
         </div>
       </div>
