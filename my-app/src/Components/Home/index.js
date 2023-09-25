@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row md:justify-around md:items-center">
-        <div className="md:w-2/5 w-72 h-48 md:h-full mx-auto md:mx-0">
+        <div className="md:w-2/5 w-64 h-48 md:h-full mx-auto md:mx-0">
           <h2 className="text-3xl md:text-4xl font-medium">
             HI, I'm{" "}
             <span className="text-4xl md:text-5xl font-bold text-zinc-400">
