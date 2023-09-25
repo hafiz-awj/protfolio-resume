@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { useNavbarContext } from "../../NavBarContext";
 import { BiMenu } from "react-icons/bi";
 import { BsMoonFill } from "react-icons/bs";
@@ -65,40 +65,40 @@ const Navbar = () => {
           </ul>
         </div>
       )}
-
       {isMobileNavbar && (
-        <div className="bg-zinc-50 w-full h-screen">
-          <div className="w-60 bg-zinc-200 h-screen">
-            <div className="h-3"></div>
-            <div className="flex justify-end">
-              <div className="bg-zinc-50 mr-3 p-2 rounded-full">
-                <RxCross2 onClick={toggleMobileNavbar} size={20} className="" />
-              </div>
+        <div className="fixed bg-zinc-50 w-full h-screen z-40"></div>
+      )}
+      {isMobileNavbar && (
+        <div className="w-60 bg-zinc-200 h-screen fixed z-50 opacity-100">
+          <div className="h-3"></div>
+          <div className="flex justify-end">
+            <div className="bg-zinc-50 mr-3 p-2 rounded-full">
+              <RxCross2 onClick={toggleMobileNavbar} size={20} className="" />
             </div>
-            <div className="flex justify-center">
-              <h1 className="p-4 rounded-full bg-zinc-50 font-bold text-3xl">
-                AA
-              </h1>
-            </div>
-            <div className="flex justify-center mt-12 h-2/5">
-              <ul className="flex flex-col justify-between items-center font-semibold">
-                <li>
-                  <a href="#home">Home</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#skills">Skills</a>
-                </li>
-                <li>
-                  <a href="#projects">Projects</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
+          </div>
+          <div className="flex justify-center">
+            <h1 className="p-4 rounded-full bg-zinc-50 font-bold text-3xl">
+              AA
+            </h1>
+          </div>
+          <div className="flex justify-center mt-12 h-2/5">
+            <ul className="flex flex-col justify-between items-center font-semibold">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
       )}
