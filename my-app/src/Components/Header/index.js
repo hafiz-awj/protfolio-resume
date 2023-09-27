@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       {!isMobileNavbar && (
-        <div className="hidden md:flex w-full bg-zinc-200 pl-10 xl:py-3 2xl:py-5 py-2 font-sans justify-between">
+        <div className="hidden md:flex w-full bg-zinc-200 pl-10 xl:py-3 2xl:py-5 py-2 font-sans justify-between ">
           <div className=" pl-10 pr-20 lg:ml-10 mr-36 xl:mr-80 2xl:mr-96">
             <h1 className="m-0 text-2xl xl:text-3xl 2xl:text-4xl font-bold p-3 rounded-full bg-zinc-50">
               AA
