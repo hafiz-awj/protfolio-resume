@@ -3,10 +3,10 @@ import { TbPointFilled } from "react-icons/tb";
 
 const About = () => {
   return (
-    <div className="bg-green-300 py-10">
+    <div className="bg-green-300 py-10 w-full xl:w-3/4 float-right">
       <div className="px-10">
         <h1 className="text-5xl font-semibold text-zinc-400">About</h1>
-        <div className="bg-zinc-400 rounded-sm h-1 w-24 mt-1"></div>
+        <div className="bg-zinc-400 rounded-sm h-1 w-24 mt-2"></div>
         <p className="mt-3 text-xl">
           A hardworking and dedicated individual, determined on the road to
           success, ever ready to take on challenges and accomplish what I set
@@ -15,17 +15,17 @@ const About = () => {
           proves to be an asset in every aspect of the life, thus allowing me to
           give my best for the growth of an organization.
         </p>
-        <div className="flex flex-col md:flex-row mt-10">
-          <div>
-            <img src="/assets/images/avatar.png" className="h-96" alt="Ali's Pic"/>
+        <div className="flex flex-col sm:flex-row my-10">
+          <div className="mx-auto md:mx-0">
+            <img src="/assets/images/avatar.png" className="w-32" alt="Ali's Pic"/>
           </div>
-          <div className="ml-10 w-full">
+          <div className="ml-10 md:ml-20 w-full">
             <h2 className="text-3xl font-medium text-zinc-400">
               Web Developer
             </h2>
             <div className="bg-zinc-400 rounded-sm h-1 w-40 mt-1"></div>
-            <div className="mt-5 flex md:flex-row w-11/12 text-lg">
-              <div className="w-1/2">
+            <div className="mt-5 flex flex-col md:flex-row w-11/12 text-base md:text-lg">
+              <div className="w-full md:w-1/2">
                 <p className="mb-3">
                   <span>
                     <TbPointFilled className="inline" />
@@ -60,7 +60,7 @@ const About = () => {
                   Urdu
                 </p>
               </div>
-              <div className="w-1/2">
+              <div className="w-full md:w-1/2">
                 <p className="mb-3">
                   <span>
                     <TbPointFilled className="inline" />
