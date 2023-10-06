@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-row justify-center h-[600px] md:h-[650px] w-screen xl:w-3/4 xl:float-right pb-20 bg-zinc-300/90">
+      <div id="home" className="flex flex-row justify-center h-[600px] md:h-[650px] w-screen xl:w-3/4 xl:float-right pb-20 bg-zinc-300/90">
         <div className="pl-10 pt-40 sm:pl-20 md:pl-32 lg:pl-40  w-4/5">
           <h2 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black mb-2">
             Ali Awj

@@ -3,7 +3,7 @@ import { TbPointFilled } from "react-icons/tb";
 
 const About = () => {
   return (
-    <div className="bg-green-300 py-10 w-full xl:w-3/4 float-right">
+    <div id="about" className="bg-green-300 py-10 w-full xl:w-3/4 float-right">
       <div className="px-10">
         <h1 className="text-5xl font-semibold text-zinc-400">About</h1>
         <div className="bg-zinc-400 rounded-sm h-1 w-24 mt-2"></div>
