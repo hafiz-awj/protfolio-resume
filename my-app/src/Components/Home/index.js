@@ -9,7 +9,7 @@ const Home = () => {
           <h2 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black mb-2">
             Ali Awj
           </h2>
-          <div className="flex items-baseline flex-col sm:flex-row">
+          <div className="flex items-baseline flex-col sm:flex-row mt-4">
             <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl mr-2">
               I'm a
             </p>

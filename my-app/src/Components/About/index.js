@@ -17,13 +17,25 @@ const About = () => {
         </p>
         <div className="flex flex-col sm:flex-row my-10">
           <div className="mx-auto md:mx-0">
-            <img src="/assets/images/avatar.png" className="w-32" alt="Ali's Pic"/>
+            <img
+              src="/assets/images/avatar.png"
+              className="w-32"
+              alt="Ali's Pic"
+            />
           </div>
-          <div className="ml-10 md:ml-20 w-full">
+          <div className="ml-3 md:ml-20 w-full">
             <h2 className="text-3xl font-medium text-zinc-400">
               Web Developer
             </h2>
             <div className="bg-zinc-400 rounded-sm h-1 w-40 mt-1"></div>
+            <p className="mt-2 text-lg italic w-11/12">
+              I am dedicated to delivering high-quality work to my clients or
+              team, and I pay great attention to detail. I believe in the
+              importance of communication and collaboration, working closely
+              with stakeholders to understand their needs and goals thoroughly.
+              I take pride in my ability to meet project deadlines and work
+              efficiently under pressure.
+            </p>
             <div className="mt-5 flex flex-col md:flex-row w-11/12 text-base md:text-lg">
               <div className="w-full md:w-1/2">
                 <p className="mb-3">
@@ -98,10 +110,11 @@ const About = () => {
         </div>
         <p className="text-xl font-normal pb-5">
           I have a diverse skill set in web development, specializing in
-          <span className="font-semibold">{' '}HTML, CSS, JavaScript</span>. I create
-          dynamic and interactive web interfaces. I'm proficient in front-end
-          libraries and frameworks like 
-          <span className="font-semibold">{' '}
+          <span className="font-semibold"> HTML, CSS, JavaScript</span>. I
+          create dynamic and interactive web interfaces. I'm proficient in
+          front-end libraries and frameworks like
+          <span className="font-semibold">
+            {" "}
             Bootstrap, Tailwind CSS, Ant Design, and Material-UI
           </span>{" "}
           for responsive and visually appealing layouts.
@@ -110,7 +123,7 @@ const About = () => {
           <span className="font-semibold">React.js</span> and{" "}
           <span className="font-semibold">Next.js</span> for modern web
           applications. I'm well-versed in
-          <span className="font-semibold">{' '}Firebase</span> for real-time
+          <span className="font-semibold"> Firebase</span> for real-time
           application development, user authentication, and data management.{" "}
           <br />
           <br />I stay updated with the latest technologies to deliver top-notch

@@ -65,12 +65,18 @@ const Navbar = () => {
             <p className="text-3xl font-bold">Hafiz Ali Awj</p>
             <div></div>
           </div>
-          <ul className="flex flex-col justify-around items-center h-20 text-xl font-semibold mt-10">
+          <ul className="flex flex-col justify-around w-1/2 mx-auto h-48 text-xl font-semibold mt-10">
             <li className="cursor-pointer">
               <a href="#home">Home</a>
             </li>
             <li className="cursor-pointer">
               <a href="#about">About</a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#resume">Resume</a>
+            </li>
+            <li className="cursor-pointer">
+              <a href="#skills">Skills</a>
             </li>
           </ul>
         </div>

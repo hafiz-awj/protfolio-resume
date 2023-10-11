@@ -6,6 +6,7 @@ import { NavbarProvider } from "./NavBarContext";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import Resume from "./Components/Resume";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Navbar />
         <Home />
         <About />
-        {/* <Skills /> */}
+        <Resume />
+        <Skills />
         {/* <Contact /> */}
       </div>
     </NavbarProvider>
